@@ -1,0 +1,10 @@
+
+Why docker ?
+When We are installed any software on our local machine it come along with lot of dependecies those depedencies some time present in our machine or sometime not so those presInstalled depedencies if not installed which causing the issue to avoid that issue docker comp into the picture.
+
+How docker mitigate that issue ?
+Docker has Image which is the blueprint of the container, image consisit of fs snapshot and the runing command snapshot tells what file to load in our system and running command once the container start those commands get run inside the container.
+
+
+What is container ?
+Container is the runing istance of docker image when we run the docker run <image name > It will run the docker container which has dedicated space in  the machine where specific prosecess get run. 
