@@ -7,4 +7,7 @@ Docker has Image which is the blueprint of the container, image consisit of fs s
 
 
 What is container ?
-Container is the runing istance of docker image when we run the docker run <image name > It will run the docker container which has dedicated space in  the machine where specific prosecess get run. 
+Container is the runing instance of docker image when we run the docker run <image name > It will run the docker container which has dedicated space in  the machine where specific prosecess get run. 
+Container is work on the os priciple which is called segmentation and namespacing however these concept is not following by lot of os except linux so whenever we installed the docker we unintentionally or unawarely installing and creating virtuall environment of linux kernal in our system .
+
+container has all the dependency which is required to that process to run and hardware of small poprtion of your local machine. so We can seprarely run the process without any interfere.
